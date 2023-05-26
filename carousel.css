@@ -122,6 +122,13 @@ body {
   top: 0;
   left: 0;
 }
+.credit{
+  position: relative;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+}
 
 @-webkit-keyframes spin {
   from{
