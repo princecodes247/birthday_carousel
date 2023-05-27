@@ -1,353 +1,358 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>ShaSan-carousel</title>
-  <link rel="stylesheet" type='text/css' href="./carousel.css">
-  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
-</head>
-<body>
-  <!-- adding white multiple confetti animation  -->
-  <div id="confetti-container">
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-    <div class="confetti"></div>
-  </div>
-<!-- adding mutiple red confetti animation -->
-<div id="confetti2-container">
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div> 
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-  <div class="confetti2"></div>
-</div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ShaSan-carousel</title>
+    <link rel="stylesheet" type="text/css" href="./carousel.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon-32x32.png"
+      sizes="32x32"
+    />
+  </head>
+  <body>
+    <!-- adding white multiple confetti animation  -->
+    <div id="confetti-container">
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+      <div class="confetti"></div>
+    </div>
+    <!-- adding mutiple red confetti animation -->
+    <div id="confetti2-container">
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+      <div class="confetti2"></div>
+    </div>
 
-<!-- adding green multiple confetti animation -->
-<div id="confetti3-container">
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-  <div class="confetti3"></div>
-</div>
+    <!-- adding green multiple confetti animation -->
+    <div id="confetti3-container">
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+      <div class="confetti3"></div>
+    </div>
 
-<!-- partial:index.partial.html -->
-<div id="drag-container">
-  <div id="spin-container">
-    <img src="./assets/img (1).jpg" alt="">
-    <img src="./assets/img (2).jpg" alt="">
-    <img src="./assets/img (3).jpg" alt="">
-    <img src="./assets/img (4).jpg" alt="">
-    <img src="./assets/img (5).jpg" alt="">
-    <img src="./assets/img (6).jpg" alt="">
-    <img src="./assets/img (7).jpg" alt="">
+    <!-- partial:index.partial.html -->
+    <div id="drag-container">
+      <div id="spin-container">
+        <img src="./assets/img (1).jpg" alt="" />
+        <img src="./assets/img (2).jpg" alt="" />
+        <img src="./assets/img (3).jpg" alt="" />
+        <img src="./assets/img (4).jpg" alt="" />
+        <img src="./assets/img (5).jpg" alt="" />
+        <img src="./assets/img (6).jpg" alt="" />
+        <img src="./assets/img (7).jpg" alt="" />
 
-    <!-- Example image with link -->
-    <!-- <a target="_blank" href="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg">
+        <!-- Example image with link -->
+        <!-- <a target="_blank" href="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg">
       <img src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
     </a> -->
 
-    <!-- Example add video  -->
-    <!-- <video controls autoplay="autoplay" loop>
+        <!-- Example add video  -->
+        <!-- <video controls autoplay="autoplay" loop>
       <source src="https://media4.giphy.com/media/i2esNmDizlU7Od6Wol/giphy.gif?cid=ecf05e47s92ny5pkx9oyixvas9fxs4o9frcqxda5u39t4lek&rid=giphy.gif&ct=g" type="video/mp4">
     </video> -->
 
-    <!-- Text at center of ground -->
-    <p><b>HAPPY BIRTHDAY MOM</b></p>
-  </div>
-  <div id="ground"></div>
-</div>
-<!-- MUSIC ADD -->
-<div id="music-container"></div>
-<!-- github corner (https://github.com/tholman/github-corners) -->
-<!-- <style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style> -->
-<!-- linking javascipt-->
-  <script  src="./carousel.js"></script>
-<!-- ADDING THE BRAND
+        <!-- Text at center of ground -->
+        <p><b>HAPPY BIRTHDAY MOM</b></p>
+      </div>
+      <div id="ground"></div>
+    </div>
+    <!-- MUSIC ADD -->
+    <!-- <div id="music-container"></div> -->
+    <!-- github corner (https://github.com/tholman/github-corners) -->
+    <!-- <style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style> -->
+    <!-- linking javascipt-->
+    <script src="./carousel.js"></script>
+    <!-- ADDING THE BRAND
 and THE CREDITS -->
-<!-- <div class="logo">
+    <!-- <div class="logo">
   <img src="./ShanSan1.png" alt="shasan" height="150">
   <h6 style="color: rgb(134, 137, 137);">MADE BY SHANN</h6>
   <a href="mailto:shannnexus825000@gmail.com">CONTACT</a>
 </div> -->
-</body>
-
+  </body>
+</html>
