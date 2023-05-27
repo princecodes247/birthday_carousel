@@ -86,7 +86,8 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 2em;
-  font-family: cursive;
+
+  font-family: "Britney", cursive;
 }
 #drag-container img,
 #drag-container video {
@@ -119,6 +120,7 @@ body {
   position: absolute;
   top: 100%;
   left: 50%;
+  font-family: "Telma", cursive;
   -webkit-transform: translate(-50%, -50%) rotateX(90deg);
   transform: translate(-50%, -50%) rotateX(90deg);
   color: #000;
